@@ -1,0 +1,331 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: PingFang SC,Helvetica Neue,Helvetica,Arial,Microsoft Yahei,sans-serif;
+    font-size: 16px;
+    color: #434343;
+    font-weight: lighter;
+    list-style-type: none;
+    text-decoration: none;
+}
+.nav{
+    margin:0 190px 0px 190px;
+    height: 60px;
+    width: 986px;
+}
+.nav .logo{
+    float: left;
+    width: 125px;
+    height: 22px;
+    background: url(img/logo.png);
+    background-size: cover;
+    margin-top: 12px;
+}
+.nav ul{
+    width: 986px;
+}
+.nav li{
+    float:left;
+    margin:10px 5px;
+    padding: 3px 10px;
+}
+.nav .first{
+    color: #1e96fa;
+}
+.nav .login{
+    float:right;
+    margin-right: 5px;
+}
+.nav .reg{
+    margin-left: 5px;
+    float: right;
+    border-radius: 14px;
+    border: 1px solid #1e96fa;
+    color: #1e96fa;
+}
+.content .part1{
+    width: 1349px;
+    height: 714px;
+    /* background: blue; */
+    background: url(img/index-bg.jpg);
+    background-size: cover;
+}
+ .content .part1 .wrapper{
+    display: inline-block;
+    margin-top: 240px;
+    margin-left: 100px;
+} 
+.content .part1 .wrapper h1{
+    font-size: 48px;
+    color: #000;
+}
+.content .part1 .wrapper p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.content .part1 .wrapper .frereg{
+    width: 64px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    color: #fff;
+    background: #1e96fa;
+}
+.content .part2{
+    margin-top:75px;
+    width: 1345px;
+    height: 500px; 
+    overflow: hidden;
+    
+}
+.part2 .block1{
+    width: 400px;
+    margin-left: 100px;
+    float: left;
+}
+.part2 .block1 ul{
+    width: 400px;
+}
+.part2 .block1 .first{
+    font-size: 30px;
+    margin-top: 10px;
+    color: #000;
+}
+.part2 .block1 .blue p{
+    margin-top: 94px;
+    font-size: 20px;
+    color: #1e96fa;
+    /* padding-bottom: 10px; */
+}
+.part2 .block1 .sharp{
+    width: 16px;
+    height: 16px;
+    float: right;
+}
+.part2 .block1 .sharp-blue{
+    background: url(img/sharp-blue.png);
+}
+.part2 .block1 .sharp-gray{
+    background: url(img/sharp-gray.png);
+}
+.part2 .block1 .litblue{
+    font-size: 12px;
+    /* margin-top: 10px; */
+    color: #1e96fa;
+    margin-top: 10px;
+}
+.part2 .block1 .line{
+    width: 100%;
+    height: 1px;
+    background: #ccc;
+    margin-top: 40px;
+}
+.part2 .block1 .black p{
+    font-size: 20px;
+    color: #000;
+    margin-top: 40px;
+}
+.part2 .block1 .litblack{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.part2 .block2 {
+    float: left;
+    margin-left: 45px;
+    width: 800px;
+    position: relative;
+}
+.part2 .block2 .phone{
+    position: absolute;
+    top:100px;
+    left: 100px;
+    background: url(img/to-yg.png);
+    width: 186px;
+    height: 380px;
+    background-size: cover;
+}
+.part2 .block2 .wind{
+    position: absolute;
+    top: 10px;
+    left: 200px; 
+    width: 549px;
+    height: 367px;
+    background: url(img/to-qy.jpg);
+    background-size: cover;
+}
+.part3{
+    width: 1345px;
+    height: 300px;
+}
+.part3 .dd{
+    width: 1210px;
+    height: 250px;
+    background: url(img/lj-dd.jpg);
+    background-size: cover;
+    margin-left: 80px;
+}
+.part4{
+    margin-top: 20px;
+    width: 1345px;
+    height: 600px;
+    background: #f6f8fa;
+    overflow: hidden;
+}
+.part4 .head{
+    font-size: 35px;
+    color: #000;
+    margin-left: 250px;
+    margin-top: 80px;
+}
+.part4 ul{
+    margin-left: 200px;
+}
+.part4 li{
+    width: 300px;
+    height: 200px;
+    /* background: black; */
+    margin: 10px;
+    float: left;
+}
+.part4 .pic{
+    height:80px;
+}
+.part4 .qian{
+    background: url(img/feature1.png);
+    background-size: cover;
+    width: 80px;
+}
+.part4 .shouji{
+    background: url(img/feature2.png);
+    background-size: cover;
+    width: 55px;
+}
+.part4 .che{
+    background: url(img/feature3.png);
+    background-size: cover;
+    width: 100px;
+
+}
+.part4 .yuan{
+    background: url(img/feature4.png);
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+}
+.part4 .dun{
+    background: url(img/feature5.png);
+    background-size: cover;
+    width: 73px;
+}
+.part4 .feature{
+    margin: 20px 0;
+    font-size: 20px;
+}
+.part4 p{
+    font-size: 12px;
+}
+.part5{
+    width: 1349px;
+    height: 562px;
+    background: url(img/index-cjbg.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.part5 .head{
+    font-size: 35px;
+    color: #000;
+    margin-left: 250px;
+    margin-top: 160px;
+}
+.part5 ul{
+    margin-left: 250px;
+    width: 530px;
+}
+.part5 ul li{
+    float: left; 
+    margin: 15px;
+}
+.part5 .pic{
+    width: 66px;
+    height: 70px;
+    background: url(img/sceneList.png);
+}
+.part5 .pic1{
+    background-position: -25px -2px;
+}
+.part5 .pic2{
+    background-position: -251px 0px;
+}
+.part5 .pic3{
+    background-position: -475px 0px;
+}
+.part5 .pic4{
+    background-position: -696px 0px;
+}
+.part5 .pic5{
+    background-position: -920px -5px;
+    width: 70px;
+}
+.part5 .pic6{
+    background-position: -39px 136px;
+    height: 72px;
+
+}
+.part5 .pic7{
+    background-position: -250px 136px;
+    height: 72px;
+
+}
+.part6{
+    background: #f6f8fa;
+    width: 1349px;
+    height: 620px;;
+    overflow: hidden;
+}
+.part6 .head{
+    font-size: 35px;
+    color: #000;
+    margin-left: 250px;
+    margin-top: 85px;
+}
+.part6 ul{
+    margin-left: 250px;
+}
+.part6 ul::before{
+    display: block;
+    content: "";
+    clear: both;
+}
+.part6 ul li{
+    float: left;
+    margin: 20px;
+    font-size: 20px;
+    color: #000;
+}
+.part6 ul .first{
+    color: #1e96fa;
+    /* text-decoration: underline; */
+}
+.part6 .line-b{
+    width: 80px;
+    height: 2px;
+    background: #1e96fa;
+    margin-top: 50px;
+    margin-left:250px;
+}
+.part6 .line-g{
+    width: 800px;
+    height: 2px;
+    background: #ccc;
+    margin-top: -2px;
+    margin-left:330px;
+}
+.part6 .pic{
+    width: 410px;
+    height: 305px;
+    margin-left: 250px;
+    background: url(img/index-cjbg.jpg);
+    background-position: right;
+    background-size: cover;
+}
